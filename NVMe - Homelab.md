@@ -10,7 +10,8 @@
 
 ---
 
-## Opi5P — Xunlong Orange Pi 5 Plus — Linux 7.2.14-200.fc44.aarch64 — Fedora Linux 44 (Forty Four)
+## Opi5P — Xunlong Orange Pi 5 Plus
+## Linux 7.2.14-200.fc44.aarch64 — Fedora Linux 44 (Forty Four)
 
 4x Cortex-A76, 4x Cortex-A55, 8x thread — Homelab aarch64 testbed
 
@@ -36,7 +37,8 @@ root@opi5p:~# dd if=/dev/zero of=test_write_perf bs=4M count=2560 oflag=direct s
 
 ---
 
-## merri — B450M DS3H — Linux 7.2.14-200.fc44.x86_64 — Fedora Linux 44 (Server Edition)
+## merri — B450M DS3H
+## Linux 7.2.14-200.fc44.x86_64 — Fedora Linux 44 (Server Edition)
 
 AMD Ryzen 5 5600G with Radeon Graphics, 12x thread — Homelab NAS
 
@@ -60,7 +62,8 @@ root@merri:~# dd if=/dev/zero of=test_write_perf bs=4M count=2560 oflag=direct s
 
 ---
 
-## pipin — B450M DS3H — Linux 7.2.14-300.fc45.x86_64 — Fedora Linux 45 (Server Edition)
+## pipin — B450M DS3H
+## Linux 7.2.14-300.fc45.x86_64 — Fedora Linux 45 (Server Edition)
 
 AMD Ryzen 7 3800X 8-Core Processor, 16x thread — Homelab x86_64 testbed
 
@@ -84,7 +87,8 @@ root@pipin:~# dd if=/dev/zero of=test_write_perf bs=4M count=2560 oflag=direct s
 
 ---
 
-## frodo — B550 GAMING X V2 — Linux 7.2.14-200.fc44.x86_64 — Fedora Linux 44 (Workstation Edition)
+## frodo — B550 GAMING X V2
+## Linux 7.2.14-200.fc44.x86_64 — Fedora Linux 44 (Workstation Edition)
 
 AMD Ryzen 9 5900X 12-Core Processor, 24x thread — Homelab Workstation
 
@@ -111,7 +115,8 @@ root@frodo:~# dd if=/dev/zero of=test_write_perf bs=4M count=2560 oflag=direct s
 
 ---
 
-## rippr — PRIME TRX40-PRO — Linux 7.2.14-200.fc44.x86_64 — Fedora Linux 44 (Server Edition)
+## rippr — PRIME TRX40-PRO
+## Linux 7.2.14-200.fc44.x86_64 — Fedora Linux 44 (Server Edition)
 
 AMD Ryzen Threadripper 3960X 24-Core Processor, 48x thread — Homelab VM Host Server
 
