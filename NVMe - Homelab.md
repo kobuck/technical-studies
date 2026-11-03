@@ -141,4 +141,4 @@ root@rippr:~# dd if=/dev/zero of=test_write_perf bs=4M count=2560 oflag=direct s
 10737418240 bytes (11 GB, 10 GiB) copied, 3.63503 s, 3.0 GB/s
 ```
 
-*TRX-40 Pro implements both m.2 sockets as direct-to-CPU ports*
+*TRX-40 Pro implements both m.2 sockets as direct-to-CPU ports (64Gbs each)*
