@@ -131,14 +131,14 @@ root@rippr:~# lspci | grep Samsung
 48:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd NVMe SSD Controller SM981/PM981/PM983
 ```
 
-*Tested 2nd device, a 970 EVO Plus PCIe 3.0x4 device, write rated 3,200 MB/sec (OS drive)*
+*Tested 1st device, a Samsung SSD 980 PRO 500GB PCIe 4.0x4 device, write rated 5,000 MB/sec (LVM volume)*
 
 ```
 root@rippr:~# dd if=/dev/zero of=test_write_perf bs=4M count=2560 oflag=direct status=progress
-8854175744 bytes (8.9 GB, 8.2 GiB) copied, 3 s, 3.0 GB/s
+8107589632 bytes (8.1 GB, 7.6 GiB) copied, 2 s, 4.1 GB/s
 2560+0 records in
 2560+0 records out
-10737418240 bytes (11 GB, 10 GiB) copied, 3.63503 s, 3.0 GB/s
+10737418240 bytes (11 GB, 10 GiB) copied, 2.65097 s, 4.1 GB/s
 ```
 
 *TRX-40 Pro implements both m.2 sockets as direct-to-CPU ports (64Gbs each)*
